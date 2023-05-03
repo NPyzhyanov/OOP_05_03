@@ -141,9 +141,16 @@
     <ClInclude Include="triangle.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="equilateral_triangle.cpp" />
     <ClCompile Include="figure.cpp" />
+    <ClCompile Include="isosceles_triangle.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="parallelogram.cpp" />
     <ClCompile Include="quadrilateral.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="rhombus.cpp" />
+    <ClCompile Include="right_triangle.cpp" />
+    <ClCompile Include="square.cpp" />
     <ClCompile Include="triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
