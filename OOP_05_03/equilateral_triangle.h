@@ -8,6 +8,9 @@ class Equilateral_Triangle : public Triangle
 public:
     Equilateral_Triangle(double a) : Triangle() {update_figure_name("Equilateral triangle"); set_sides_values(a, a, a); set_angles_values(60.0, 60.0, 60.0);}
     
+protected:
+    bool is_correct() override;
+    
 };
 
 #endif // EQUILATERAL_TRIANGLE_H

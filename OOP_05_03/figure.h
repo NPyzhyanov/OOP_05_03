@@ -6,6 +6,11 @@ class Figure
 public:
     Figure();
     
+    Figure(const Figure&) = delete;
+    Figure& operator=(const Figure&) = delete;
+    
+    virtual ~Figure() {}
+    
     virtual void print_info();
     
 protected:

@@ -8,6 +8,9 @@ class Rhombus : public Quadrilateral
 public:
     Rhombus(double a, double A, double B) : Quadrilateral() {update_figure_name("Rhombus"); set_sides_values(a, a, a, a); set_angles_values(A, B, A, B);}
     
+protected:
+    bool is_correct() override;
+    
 };
 
 #endif // RHOMBUS_H

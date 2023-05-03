@@ -8,6 +8,9 @@ class Square : public Quadrilateral
 public:
     Square(double a) : Quadrilateral() {update_figure_name("Square"); set_sides_values(a, a, a, a); set_angles_values(90.0, 90.0, 90.0, 90.0);}
     
+protected:
+    bool is_correct() override;
+    
 };
 
 #endif // SQUARE_H

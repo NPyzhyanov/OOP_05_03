@@ -8,6 +8,9 @@ class Isosceles_Triangle : public Triangle
 public:
     Isosceles_Triangle(double a, double b, double A, double B) : Triangle() {update_figure_name("Isosceles triangle"); set_sides_values(a, b, a); set_angles_values(A, B, A);}
     
+protected:
+    bool is_correct() override;
+    
 };
 
 #endif // ISOSCELES_TRIANGLE_H
